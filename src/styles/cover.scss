@@ -1,0 +1,72 @@
+$transparent:transparent;
+$hoverBlue:#7AC5FF;
+$white:#fff;
+$three:#333;
+$num:10;
+.mb_20{
+  margin-bottom: 2*$num+px;
+}
+.mb_5{
+  margin-bottom: $num/2+px;
+}
+.t-a{
+  text-align: center;
+}
+.short-input-30{
+  width: 3*$num+%;
+}
+.el-menu-item,.el-submenu__title{
+  &:hover {
+    background-color: $hoverBlue;
+  }
+  &:focus {
+    background-color: $hoverBlue;
+  }
+}
+.el-table{
+  thead{
+    color: $three;
+  }
+  .el-table__empty-text{
+    color: $three;
+  }
+}
+.two-cup-table{
+  .el-form-item__content{
+    width: 200px;
+    .short-select{
+      width: 32%;
+    }
+    .short-input{
+      width: 46%;
+    }
+  }
+  .full{
+    .el-form-item__content{
+      width: 515px;
+    }
+  }
+
+  .tree-input{
+    .el-input{
+      width: 60%;
+      margin-bottom: 10px;
+    }
+    .tree-input-child{
+      .el-input{
+        width: 50%;
+      }
+    }
+  }
+}
+.el-autocomplete{
+  width: 100%;
+}
+.primary {
+  color: #00a1ff;
+}
+i.primary{
+  font-size: 20px;
+  margin-right: 5px;
+}
+
